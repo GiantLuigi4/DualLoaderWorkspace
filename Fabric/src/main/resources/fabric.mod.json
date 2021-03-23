@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "dualloadermod",
+  "version": "${version}",
+  "name": "DualLoaderMod",
+  "description": "An example mod which is compatible with both forge and fabric",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/example/icon.png",
+  "environment": "*",
+  "entrypoints": {"client": ["com.example.dualloadermod.fabric.client.FabricClient"], "main": ["com.example.dualloadermod.fabric.Fabric"]},
+  "mixins": [
+    "fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
