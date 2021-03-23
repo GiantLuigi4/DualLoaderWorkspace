@@ -3,3 +3,6 @@
 /build/
 /Common/.gradle/
 /Common/build/
+/run/
+/logs/
+/.idea/
